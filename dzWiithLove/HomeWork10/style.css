@@ -1,0 +1,21 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 30vw;
+    height: auto;
+    padding: 30px;
+    margin: 50px;
+    border-radius: 25px;
+    color: white;
+    font-size: 20px;
+    box-shadow: 2px 3px 6px 2px gray;
+  }

@@ -1,0 +1,40 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: papayawhip;
+    transform-style: preserve-3d;
+    perspective: 400px;
+  }
+  
+  table {
+    border: 5px solid violet;
+    background: pink;
+    color: teal;
+  }
+  
+  tr,
+  td {
+    border: 1px solid tomato;
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+    text-align: center;
+  }
+  
+  input {
+    font-size: 20px;
+    margin-top: 30px;
+    background: violet;
+    border: 3px solid tomato;
+    border-radius: 30px;
+    color: teal;
+    text-align: center;
+    outline: none;
+  }
+  
+  p {
+    font-size: 15px;
+    color:black;
+  }
