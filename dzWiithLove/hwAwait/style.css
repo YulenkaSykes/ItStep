@@ -1,0 +1,56 @@
+body {
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(330deg, rgb(255, 145, 0), rgb(212, 45, 143), rgb(74, 23, 116), rgba(38, 177, 196, 0.829));
+
+}
+
+body button {
+    margin: 2vw;
+    width: 9vw;
+    height: 17vh;
+    cursor: pointer;
+    border-radius: 50%;
+    border: 2px solid black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 4vh;
+    transition: 0.5s;
+    background: darkred;
+    color: mistyrose;
+}
+
+body button:hover {
+    transform: scale(1.1);
+}
+
+body main {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s all;
+}
+
+body main .card {
+    margin: 2vw;
+    padding: 1vw;
+    width: 30vw;
+    height: 30vh;
+    font-family: fantasy;
+    color: rgb(9, 54, 29);
+    border-radius: 10% 0%;
+    border: 2px solid black;
+    transition: 0.3s all;
+    background: rgb(255, 181, 249);
+}
+
+body main .card label {
+    margin-left: 5vw;
+}
+
